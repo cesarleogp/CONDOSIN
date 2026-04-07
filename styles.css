@@ -234,6 +234,11 @@ h3 {
   -webkit-background-clip: initial;
   background-clip: initial;
   animation: none;
+  font-size: clamp(1.8rem, 3.2vw, 3rem) !important;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0.25rem;
 }
 
 .hero-description {
