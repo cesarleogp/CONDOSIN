@@ -15,7 +15,23 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
-    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1124471028173786');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1124471028173786&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -281,6 +297,7 @@
                 href="https://www.sympla.com.br/evento/curso-nr1-inspecao-predial/3375847"
                 target="_blank"
                 rel="noreferrer"
+                onclick="fbq('track', 'Purchase', {value: 69.90, currency: 'BRL'});"
               >
                 Quero garantir minha vaga
               </a>
