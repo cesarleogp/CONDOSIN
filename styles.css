@@ -868,8 +868,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: min(1028.5331px, 100%);
-  animation: cardFloat 9s ease-in-out infinite;
+  width: min(1420px, 100%);
 }
 
 .partners-strip img {
@@ -1199,7 +1198,7 @@ h3 {
   }
 
   .partners-strip {
-    width: min(420px, 100%);
+    width: min(1040px, 100%);
   }
 }
 
@@ -1259,6 +1258,10 @@ h3 {
 
   .hero-glow {
     display: none;
+  }
+
+  .partners-strip {
+    width: 100%;
   }
 
   .alert-header {
